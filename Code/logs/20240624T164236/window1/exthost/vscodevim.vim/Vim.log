@@ -1,0 +1,80 @@
+2024-06-24 16:47:16.874 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/hello.c
+2024-06-24 16:47:17.938 [info] /workspaces/85962938/hello.c.git closed
+2024-06-24 16:47:21.466 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/hello.c
+2024-06-24 16:47:32.638 [info] /workspaces/85962938/hello.c.git closed
+2024-06-24 16:47:34.021 [info] Configuration changed
+2024-06-24 16:47:38.125 [info] /home/ubuntu/.vscode-remote/data/Machine/settings.json closed
+2024-06-24 16:47:38.197 [info] Configuration changed
+2024-06-24 16:47:38.626 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/hello.c
+2024-06-24 16:47:49.908 [info] /workspaces/85962938/.vscode/settings.json closed
+2024-06-24 16:48:12.753 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/me/hello.c
+2024-06-24 16:48:12.760 [info] /workspaces/85962938/hello.c.git closed
+2024-06-24 16:48:47.646 [info] /workspaces/85962938/.devcontainer.json closed
+2024-06-24 16:49:50.397 [info] /home/j/.config/Code/User/settings.json closed
+2024-06-24 16:49:50.412 [info] Configuration changed
+2024-06-24 16:49:50.836 [info] /workspaces/85962938/me/hello.c closed
+2024-06-24 16:49:50.856 [info] /workspaces/85962938/me/hello.c.git closed
+2024-06-24 16:49:50.915 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/problems/me/hello.c
+2024-06-24 16:52:01.620 [info] Executing :w
+2024-06-24 16:52:28.740 [info] Executing :w
+2024-06-24 16:52:45.951 [info] Executing :w
+2024-06-24 16:52:46.672 [info] Executing :w
+2024-06-24 16:52:56.841 [info] /workspaces/85962938/problems/me/hello.c closed
+2024-06-24 16:52:56.861 [info] /workspaces/85962938/problems/me/hello.c.git closed
+2024-06-24 16:52:56.917 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/me/hello.c
+2024-06-24 16:53:54.207 [info] Executing :w
+2024-06-24 16:55:41.025 [info] /workspaces/85962938/cs50/problems/me/hello.c closed
+2024-06-24 16:55:41.043 [info] /workspaces/85962938/cs50/problems/me/hello.c.git closed
+2024-06-24 16:55:41.103 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 16:58:16.137 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/hello.c
+2024-06-24 16:58:16.145 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 16:58:17.233 [info] /workspaces/85962938/hello.c closed
+2024-06-24 16:58:17.236 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 16:58:17.242 [info] /workspaces/85962938/hello.c.git closed
+2024-06-24 16:58:24.210 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 16:58:26.337 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:04:31.930 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/tmp/style50/diff/diff_1719219871389/hello.c
+2024-06-24 17:04:31.962 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:04:51.453 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:04:52.265 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/tmp/style50/diff/diff_1719219871389/hello.c
+2024-06-24 17:04:52.277 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:04:55.592 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:04:58.760 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/tmp/style50/diff/diff_1719219871389/hello.c
+2024-06-24 17:04:58.773 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:05:06.922 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:05:26.435 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/tmp/style50/diff/diff_1719219871389/hello.c
+2024-06-24 17:05:26.449 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:05:28.134 [info] /tmp/style50/diff/diff_1719219871389/hello.c closed
+2024-06-24 17:05:28.136 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:05:29.688 [info] Executing :w
+2024-06-24 17:14:54.114 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-more/mario.c
+2024-06-24 17:14:54.127 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:15:52.787 [info] /workspaces/85962938/cs50/problems/2024/x/mario-more/mario.c closed
+2024-06-24 17:15:52.795 [info] /workspaces/85962938/cs50/problems/2024/x/mario-more/mario.c.git closed
+2024-06-24 17:15:52.797 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:16:25.633 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c
+2024-06-24 17:16:25.642 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:16:27.739 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/me/hello.c
+2024-06-24 17:16:27.748 [info] /workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c.git closed
+2024-06-24 17:16:28.562 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c closed
+2024-06-24 17:16:28.565 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c
+2024-06-24 17:16:28.573 [info] /workspaces/85962938/cs50/problems/2024/x/me/hello.c.git closed
+2024-06-24 17:16:29.031 [info] /workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c.git closed
+2024-06-24 17:16:29.447 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c
+2024-06-24 17:51:25.582 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c
+2024-06-24 17:51:26.002 [info] Configuration changed
+2024-06-24 17:51:26.032 [info] Configuration changed
+2024-06-24 17:51:26.044 [info] Configuration changed
+2024-06-24 17:51:26.056 [info] Configuration changed
+2024-06-24 17:51:26.065 [info] Configuration changed
+2024-06-24 17:51:26.073 [info] Configuration changed
+2024-06-24 17:53:32.133 [info] /workspaces/85962938/.vscode/settings.json closed
+2024-06-24 18:10:26.857 [info] /workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c closed
+2024-06-24 18:10:26.888 [info] /workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c.git closed
+2024-06-24 18:10:26.964 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/problems/2024/x/mario-less/mario.c
+2024-06-24 18:10:32.111 [info] /workspaces/85962938/problems/2024/x/mario-less/mario.c closed
+2024-06-24 18:10:32.138 [info] /workspaces/85962938/problems/2024/x/mario-less/mario.c.git closed
+2024-06-24 18:10:32.214 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c
+2024-06-24 18:10:53.873 [info] Active editor: vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/meow.c
+2024-06-24 18:10:53.887 [info] /workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c.git closed
+2024-06-24 18:12:42.363 [info] Executing :w

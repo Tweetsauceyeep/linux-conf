@@ -1,0 +1,7 @@
+2024-06-26 17:09:03.652 [info] update#setState idle
+2024-06-26 17:09:33.633 [info] update#setState checking for updates
+2024-06-26 17:09:33.699 [info] update#setState idle
+2024-06-26 17:09:40.423 [warning] [perf] profiling STARTED d8cb63fe-08bd-474e-9e01-0e5405d81030
+2024-06-26 17:09:45.452 [warning] [perf] profiling DONE d8cb63fe-08bd-474e-9e01-0e5405d81030
+2024-06-26 17:11:58.701 [info] Extension host with pid 12553 exited with code: 0, signal: unknown.
+2024-06-26 18:03:52.646 [info] Extension host with pid 13717 exited with code: 0, signal: unknown.

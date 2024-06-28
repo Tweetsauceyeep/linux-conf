@@ -1,0 +1,25 @@
+2024-06-24 19:03:01.865 [info] update#setState idle
+2024-06-24 19:03:31.868 [info] update#setState checking for updates
+2024-06-24 19:03:31.967 [info] update#setState idle
+2024-06-24 19:31:00.067 [info] Extension host with pid 48121 exited with code: 0, signal: unknown.
+2024-06-24 19:31:01.069 [error] Extension host with pid 48121 still exists, forcefully killing it...
+2024-06-24 20:03:31.880 [info] update#setState checking for updates
+2024-06-24 20:03:31.954 [info] update#setState idle
+2024-06-24 21:03:31.945 [info] update#setState checking for updates
+2024-06-24 21:03:32.021 [info] update#setState idle
+2024-06-24 22:03:31.988 [info] update#setState checking for updates
+2024-06-24 22:03:32.068 [info] update#setState idle
+2024-06-24 22:12:49.445 [info] Extension host with pid 50137 exited with code: 0, signal: unknown.
+2024-06-24 23:03:31.993 [info] update#setState checking for updates
+2024-06-24 23:03:32.068 [info] update#setState idle
+2024-06-25 00:03:31.997 [info] update#setState checking for updates
+2024-06-25 00:03:32.087 [info] update#setState idle
+2024-06-25 00:57:55.534 [info] Extension host with pid 56287 exited with code: 0, signal: unknown.
+2024-06-25 01:03:32.068 [info] update#setState checking for updates
+2024-06-25 01:03:32.139 [info] update#setState idle
+2024-06-25 02:03:32.106 [info] update#setState checking for updates
+2024-06-25 02:03:32.378 [info] update#setState idle
+2024-06-25 03:03:32.108 [info] update#setState checking for updates
+2024-06-25 03:03:32.203 [info] update#setState idle
+2024-06-25 03:06:35.608 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 74462]: crashed with code 15 and reason 'killed'
+2024-06-25 03:06:35.696 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)
