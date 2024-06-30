@@ -1,0 +1,5 @@
+[Default Applications]
+application/vnd.appimage=nautilus-autorun-software.desktop
+
+[Added Associations]
+application/vnd.appimage=nautilus-autorun-software.desktop;

@@ -27,10 +27,10 @@
             "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
             "uiState": {
                 "mode": 1,
-                "x": 32,
-                "y": 54,
-                "width": 1856,
-                "height": 1072,
+                "x": 33,
+                "y": 33,
+                "width": 1854,
+                "height": 1092,
                 "zoomLevel": 2
             }
         },
@@ -99,8 +99,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -120,6 +119,19 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/cash/cash.c",
+                                        "path": "/workspaces/85962938/cs50/problems/2024/x/cash/cash.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/cs50/problems/2024/x/cash/cash.c"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -942,8 +954,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
