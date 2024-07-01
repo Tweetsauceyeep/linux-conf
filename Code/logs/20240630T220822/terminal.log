@@ -1,0 +1,12 @@
+2024-06-30 23:30:34.444 [info] Latency measurements for codespaces+fantastic-space-waffle-v76qxwprrwgc4gw backend
+window<->ptyhostservice<->ptyhost: 44.90ms
+ptyhostservice<->ptyhost: 0.36ms []
+2024-06-30 23:34:55.572 [info] Latency measurements for codespaces+fantastic-space-waffle-v76qxwprrwgc4gw backend
+window<->ptyhostservice<->ptyhost: 48.10ms
+ptyhostservice<->ptyhost: 0.89ms []
+2024-06-30 23:35:34.559 [info] Latency measurements for codespaces+fantastic-space-waffle-v76qxwprrwgc4gw backend
+window<->ptyhostservice<->ptyhost: 74.20ms
+ptyhostservice<->ptyhost: 0.28ms []
+2024-06-30 23:37:29.451 [info] Latency measurements for codespaces+fantastic-space-waffle-v76qxwprrwgc4gw backend
+window<->ptyhostservice<->ptyhost: 51.50ms
+ptyhostservice<->ptyhost: 0.26ms []
