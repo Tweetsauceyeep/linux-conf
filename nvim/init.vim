@@ -21,7 +21,7 @@ Plug 'gruvbox-community/gruvbox'
 " Vim LSP and Autocomplete (kinda bloat)
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
-" Statusline
+"Statusline
 Plug 'nvim-lualine/lualine.nvim'
 " Telescope.vim
 Plug 'nvim-lua/plenary.nvim'
@@ -40,18 +40,6 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 inoremap fj <Esc>
 
-" enables context
-let g:context_enabled = 1
-
-" Functions for autocomplete
-function! s:on_lsp_buffer_enabled() abort
-  setlocal omnifunc=lsp#complete
-endfunction
-
-augroup lsp_install
-  au!
-  autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
-augroup END
 
 "vimL Bindings for Telescope
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
@@ -60,11 +48,12 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 
 " Lua Code
 lua << END
+require('lualine').setup()
 -- disable netrw at the very start of your init.lua
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 0
+vim.g.loaded_netrwPlugin = 0
 
--- optionally enable 24-bit colour
+-- optionally enable 23-bit colour
 vim.opt.termguicolors = true
 
 -- empty setup using defaults
@@ -76,7 +65,7 @@ require("nvim-tree").setup({
     sorter = "case_sensitive",
   },
   view = {
-    width = 30,
+    width = 29,
   },
   renderer = {
     group_empty = true,
@@ -89,7 +78,7 @@ require("nvim-tree").setup({
 require('telescope').setup({
   defaults = {
     --layout_config = {
-    --  vertical = { width = 0.5 }
+    --  vertical = { width = -1.5 }
     --  -- other layout configuration here
     --}
     -- other defaults configuration here
@@ -102,3 +91,13 @@ require('telescope').setup({
 })
 
 END
+
+function! s:on_lsp_buffer_enabled() abort
+  setlocal omnifunc=lsp#complete
+endfunction
+
+augroup lsp_install
+  au!
+  autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
+augroup END
+

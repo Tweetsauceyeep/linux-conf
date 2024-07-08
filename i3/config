@@ -85,6 +85,9 @@ bindsym $mod+Return exec alacritty
 # kill focused window
 bindsym $mod+q kill
 
+# lock screen
+bindsym $mod+shift+x exec i3lock
+
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
@@ -145,6 +148,15 @@ bindsym $super+r exec ~/Programming/bin/autorotate invert
 
 bindsym $super+shift+r exec ~/Programming/bin/autorotate landscape
 
+# Flameshot for screenshots
+exec --no-startup-id flameshot
+bindsym Print exec flameshot gui
+bindsym Shift+Print exec normcap
+
+for_window [class="Conky"] floating enable
+for_window [class="Conky"] sticky enable
+
+bindsym $mod+Ctrl+a exec --no-startup-id conky
 
 # focus the child container
 #bindsym $mod+d focus child
