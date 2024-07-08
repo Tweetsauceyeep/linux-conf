@@ -60,8 +60,6 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 
 " Lua Code
 lua << END
-require('lualine').setup()
-
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
@@ -86,6 +84,21 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = true,
   },
+})
+
+require('telescope').setup({
+  defaults = {
+    --layout_config = {
+    --  vertical = { width = 0.5 }
+    --  -- other layout configuration here
+    --}
+    -- other defaults configuration here
+  },
+  pickers = {
+    find_files = {
+      hidden = true
+    }
+  }
 })
 
 END
