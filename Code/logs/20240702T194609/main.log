@@ -1,0 +1,7 @@
+2024-07-02 19:46:09.398 [info] update#setState idle
+2024-07-02 19:46:39.364 [info] update#setState checking for updates
+2024-07-02 19:46:39.438 [info] update#setState idle
+2024-07-02 19:46:47.598 [warning] [perf] profiling STARTED b1a282c4-7870-4a4a-b65c-ca793ff1d1db
+2024-07-02 19:46:52.628 [warning] [perf] profiling DONE b1a282c4-7870-4a4a-b65c-ca793ff1d1db
+2024-07-02 19:47:02.740 [info] Extension host with pid 12882 exited with code: 0, signal: unknown.
+2024-07-02 19:48:15.754 [info] Extension host with pid 13308 exited with code: 0, signal: unknown.

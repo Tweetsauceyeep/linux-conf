@@ -6,22 +6,24 @@ set tabstop=2
 set softtabstop=2
 set expandtab
 set shiftwidth=2
-set number
+set number relativenumber
 filetype plugin indent on
 syntax on
 set ttyfast
-
+let mapleader =" "
 
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'jiangmiao/auto-pairs'
+Plug 'wellle/context.vim'
 Plug 'gruvbox-community/gruvbox'
 " Vim LSP and Autocomplete (kinda bloat)
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
-Plug 'wellle/context.vim'
-"Plug 'prabirshrestha/asyncomplete.vim'
-"Plug 'prabirshrestha/asyncomplete-lsp.vim'
+" Telescope.vim
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
+" or                                , { 'branch': '0.1.x' }
 call plug#end()
 
 colorscheme gruvbox
@@ -33,6 +35,10 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 inoremap fj <Esc>
 
+" enables context
+let g:context_enabled = 1
+
+" Functions for autocomplete
 function! s:on_lsp_buffer_enabled() abort
   setlocal omnifunc=lsp#complete
 endfunction
@@ -42,7 +48,7 @@ augroup lsp_install
   autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
-" asycomplete
-"inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-"inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-"inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
+"vimL Bindings for Telescope
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>

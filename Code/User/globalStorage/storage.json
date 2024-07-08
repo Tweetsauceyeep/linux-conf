@@ -27,9 +27,9 @@
             "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
             "uiState": {
                 "mode": 1,
-                "x": 968,
+                "x": 18,
                 "y": 18,
-                "width": 934,
+                "width": 1884,
                 "height": 1122,
                 "zoomLevel": 2
             }
@@ -99,7 +99,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -119,6 +120,19 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/greet.c",
+                                        "path": "/workspaces/85962938/practice/week2/greet.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/practice/week2/greet.c"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -236,19 +250,6 @@
                                     "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
                                     "enabled": true,
                                     "label": "/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/calculator.c",
-                                        "path": "/workspaces/85962938/practice/calculator.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/calculator.c"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -996,7 +997,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1005,7 +1007,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

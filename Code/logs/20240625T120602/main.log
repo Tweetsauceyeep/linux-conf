@@ -1,6 +1,0 @@
-2024-06-25 12:06:03.111 [info] update#setState idle
-2024-06-25 12:06:33.045 [info] update#setState checking for updates
-2024-06-25 12:06:33.237 [info] update#setState idle
-2024-06-25 12:06:45.989 [warning] [perf] profiling STARTED 43c774e7-cec7-4543-a282-cee1961331b5
-2024-06-25 12:06:51.103 [warning] [perf] profiling DONE 43c774e7-cec7-4543-a282-cee1961331b5
-2024-06-25 12:27:35.987 [info] Extension host with pid 5203 exited with code: 0, signal: unknown.

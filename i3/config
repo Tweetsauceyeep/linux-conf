@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod1
+set $super Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -49,7 +50,7 @@ gaps inner 10
 gaps outer 5
 
 #Window BOrder
-default_border pixel 3
+default_border pixel 4
 
 # Use brightnessctl to adjust brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
@@ -130,6 +131,11 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# Autorotate for Tablet Mode
+bindsym $super+r exec ~/Programming/bin/autorotate invert
+
+bindsym $super+shift+r exec ~/Programming/bin/autorotate landscape
+
 # focus the child container
 #bindsym $mod+d focus child
 
@@ -174,8 +180,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 exec obsidian
 exec firefox
 
-assign [class="obsidian"] 1
-assign [class="firefox"] 2
+assign [class="obsidian"] 2
+assign [class="firefox"] 1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

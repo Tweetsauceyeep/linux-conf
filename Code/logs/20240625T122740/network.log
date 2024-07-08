@@ -1,1 +1,0 @@
-2024-06-25 13:07:39.125 [error] electron #151: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
