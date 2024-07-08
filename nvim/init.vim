@@ -1,5 +1,6 @@
 set nocompatible            " disable compatibility to old-time vi
 set ignorecase
+set nowrap
 set mouse=v
 set incsearch
 set tabstop=2
@@ -20,10 +21,14 @@ Plug 'gruvbox-community/gruvbox'
 " Vim LSP and Autocomplete (kinda bloat)
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+" Statusline
+Plug 'nvim-lualine/lualine.nvim'
 " Telescope.vim
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 " or                                , { 'branch': '0.1.x' }
+Plug 'nvim-tree/nvim-web-devicons' " optional
+Plug 'nvim-tree/nvim-tree.lua'
 call plug#end()
 
 colorscheme gruvbox
@@ -52,3 +57,35 @@ augroup END
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
+
+" Lua Code
+lua << END
+require('lualine').setup()
+
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- optionally enable 24-bit colour
+vim.opt.termguicolors = true
+
+-- empty setup using defaults
+require("nvim-tree").setup()
+
+-- OR setup with some options
+require("nvim-tree").setup({
+  sort = {
+    sorter = "case_sensitive",
+  },
+  view = {
+    width = 30,
+  },
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = true,
+  },
+})
+
+END

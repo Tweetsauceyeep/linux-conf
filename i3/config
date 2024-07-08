@@ -49,6 +49,15 @@ exec --no-startup-id feh --bg-scale ~/Pictures/The_Artist\'s_Garden_at_Eragny.jp
 gaps inner 10
 gaps outer 5
 
+set $mode_gaps Toggle gaps: (1) on (2) off
+bindsym $mod+g mode "$mode_gaps"
+mode "$mode_gaps" {
+    bindsym 1 mode "default", gaps inner all set 20, gaps outer all set 10, exec notify-send "gaps on"
+    bindsym 2 mode "default", gaps inner all set 0, gaps outer all set 0, exec notify-send "gaps off"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
 #Window BOrder
 default_border pixel 4
 
@@ -135,6 +144,7 @@ bindsym $mod+a focus parent
 bindsym $super+r exec ~/Programming/bin/autorotate invert
 
 bindsym $super+shift+r exec ~/Programming/bin/autorotate landscape
+
 
 # focus the child container
 #bindsym $mod+d focus child

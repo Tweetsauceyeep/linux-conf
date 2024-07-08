@@ -1,5 +1,10 @@
 # Colors (Gruvbox Material Hard Dark)
 # Default colors
+
+[font.normal]
+family = "DejaVuSansM Nerd Font Mono"
+#style = "bold"
+
 [colors.primary]
 background = '#101010'
 foreground = '#d4be98'
