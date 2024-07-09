@@ -1,0 +1,565 @@
+[Client I] GitHub Codespaces version 1.17.1
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:32df I] initializing
+[Client:extension:32df:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[DevContainerJsonSupport I] Initializing devcontainer.json support package
+[DevContainerJsonSupport V] [2024-07-09T05:17:17.919Z] Internal initialization of dev container support package...
+
+[Client I] Jupyter API registered? false
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:32df:resolver:resolve:1 I] resolve retry #3
+[Client:extension:32df:resolver:resolve:1 I] resolving "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+[Client:extension:32df:resolver:resolve:1 I] codespace: "fantastic-space-waffle-v76qxwprrwgc4gw", fetching details
+[Client:extension:32df:resolver:resolve:1:fetch-codespace-info I] fetching codespace details for "fantastic-space-waffle-v76qxwprrwgc4gw"
+[Client:extension:32df:resolver:resolve:1:fetch-codespace-info I] signed in, getting the details
+[Client:extension:32df:resolver:resolve:1:fetch-codespace-info I] fetching codespace "fantastic-space-waffle-v76qxwprrwgc4gw" (retries left: 2)
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:32df:resolver I] successfully fetched codespace details> object #0: {
+  "id": 17269010,
+  "name": "<38:<redacted>>",
+  "environment_id": "7b7348e7-6af3-4d12-b3e0-5df1e26002da",
+  "owner": "<undefined:<redacted>>",
+  "billable_owner": {
+    "login": "code50",
+    "id": 89367332,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjg5MzY3MzMy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/89367332?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/code50",
+    "html_url": "https://github.com/code50",
+    "followers_url": "https://api.github.com/users/code50/followers",
+    "following_url": "https://api.github.com/users/code50/following{/other_user}",
+    "gists_url": "https://api.github.com/users/code50/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/code50/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/code50/subscriptions",
+    "organizations_url": "https://api.github.com/users/code50/orgs",
+    "repos_url": "https://api.github.com/users/code50/repos",
+    "events_url": "https://api.github.com/users/code50/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/code50/received_events",
+    "type": "Organization",
+    "site_admin": false
+  },
+  "repository": {
+    "id": 674321661,
+    "node_id": "R_kgDOKDFU_Q",
+    "name": "<8:<redacted>>",
+    "full_name": "code50/85962938",
+    "private": true,
+    "owner": "<undefined:<redacted>>",
+    "html_url": "https://github.com/code50/85962938",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/code50/85962938",
+    "forks_url": "https://api.github.com/repos/code50/85962938/forks",
+    "keys_url": "https://api.github.com/repos/code50/85962938/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/code50/85962938/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/code50/85962938/teams",
+    "hooks_url": "https://api.github.com/repos/code50/85962938/hooks",
+    "issue_events_url": "https://api.github.com/repos/code50/85962938/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/code50/85962938/events",
+    "assignees_url": "https://api.github.com/repos/code50/85962938/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/code50/85962938/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/code50/85962938/tags",
+    "blobs_url": "https://api.github.com/repos/code50/85962938/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/code50/85962938/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/code50/85962938/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/code50/85962938/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/code50/85962938/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/code50/85962938/languages",
+    "stargazers_url": "https://api.github.com/repos/code50/85962938/stargazers",
+    "contributors_url": "https://api.github.com/repos/code50/85962938/contributors",
+    "subscribers_url": "https://api.github.com/repos/code50/85962938/subscribers",
+    "subscription_url": "https://api.github.com/repos/code50/85962938/subscription",
+    "commits_url": "https://api.github.com/repos/code50/85962938/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/code50/85962938/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/code50/85962938/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/code50/85962938/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/code50/85962938/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/code50/85962938/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/code50/85962938/merges",
+    "archive_url": "https://api.github.com/repos/code50/85962938/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/code50/85962938/downloads",
+    "issues_url": "https://api.github.com/repos/code50/85962938/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/code50/85962938/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/code50/85962938/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/code50/85962938/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/code50/85962938/labels{/name}",
+    "releases_url": "https://api.github.com/repos/code50/85962938/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/code50/85962938/deployments"
+  },
+  "machine": {
+    "name": "<14:<redacted>>",
+    "display_name": "2 cores, 8 GB RAM, 32 GB storage",
+    "operating_system": "linux",
+    "storage_in_bytes": 34359738368,
+    "memory_in_bytes": 8589934592,
+    "cpus": 2,
+    "prebuild_availability": null
+  },
+  "prebuild": null,
+  "created_at": "2024-06-24T11:51:47+04:00",
+  "updated_at": "2024-07-09T09:17:19+04:00",
+  "last_used_at": "2024-07-09T08:03:55+04:00",
+  "state": "Shutdown",
+  "url": "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw",
+  "git_status": {
+    "ahead": 0,
+    "behind": 0,
+    "has_unpushed_changes": false,
+    "has_uncommitted_changes": false,
+    "ref": "main"
+  },
+  "location": "SouthEastAsia",
+  "idle_timeout_minutes": 30,
+  "web_url": "https://fantastic-space-waffle-v76qxwprrwgc4gw.github.dev",
+  "machines_url": "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw/machines",
+  "start_url": "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw/start",
+  "stop_url": "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw/stop",
+  "pulls_url": null,
+  "recent_folders": [
+    "/workspaces/85962938"
+  ],
+  "runtime_constraints": {
+    "allowed_port_privacy_settings": [
+      "private",
+      "public",
+      "org"
+    ]
+  },
+  "connection": {
+    "sessionId": "61F71AAE509B7CD0DDFE4F34298CF02AE0FE",
+    "sessionPath": "/workspaces/85962938",
+    "serviceUri": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+    "relayEndpoint": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/36d486bbc077cc06f5056794dd2c96bef39c--701e28ad-7e54-4718-a131-cfdd01324cb3",
+    "relaySas": "<263:<redacted>>",
+    "sessionToken": "<1149:<redacted>>",
+    "hostPublicKeys": []
+  },
+  "container_id": "e19e7cb0bef3f48373fffb4155a5df9858e5579c2b919daa4df08ff288bf7166",
+  "display_name": "fantastic space waffle",
+  "devcontainer_path": ".devcontainer.json",
+  "pending_operation": false,
+  "feature_flags": {
+    "developer": false,
+    "devTunnelsOptOut": false,
+    "devTunnelsDesktopPortForwarding": true,
+    "devTunnelsDesktopMainConnection": true,
+    "useBasisForMainConnectionsWebClient": true,
+    "disableLiveShareOnAgent": false,
+    "detailedActivityMonitor": false,
+    "vscodeAccountSwitching": false,
+    "enableSmbDiagnosticContinuousMonitoring": true,
+    "enableSmbDiagnosticOnAnomalyMonitoring": false,
+    "useEarlyWorkbenchWebClient": true,
+    "useCoiWebClient": false,
+    "remapUserNamespace": false,
+    "removeConnectRetriesWebClient": true,
+    "storageV2ExhaustiveValidation": false,
+    "forcePushShutdownTelemetry": true,
+    "useNewJupyterApi": true,
+    "improvedWarmupContainerReuse": true,
+    "storageV2ComprehensiveDiagnosticsCollection": false,
+    "usingCopilotWorkspaceConfig": false,
+    "copilotWorkspace": false,
+    "Basis": true,
+    "Skuheapscaling": true,
+    "CacheIde": true,
+    "Developer": false,
+    "Eap": false
+  },
+  "retention_period_minutes": 43200,
+  "retention_expires_at": "2024-08-08T08:37:03+04:00",
+  "template": null,
+  "publish_url": null
+}
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] codespace fantastic-space-waffle-v76qxwprrwgc4gw (id: 7b7348e7-6af3-4d12-b3e0-5df1e26002da) is in the "Resume" state
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] codespace fantastic-space-waffle-v76qxwprrwgc4gw (id: 7b7348e7-6af3-4d12-b3e0-5df1e26002da) is resuming
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] first run
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] starting the codespace
+[RemoteExplorer I] Updating codespace details
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] starting the codespace "7b7348e7-6af3-4d12-b3e0-5df1e26002da", attempt #2
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace details
+[EnvironmentPolling I] Polling fantastic-space-waffle-v76qxwprrwgc4gw...
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[Client:extension:32df:resolver:port-forwarder I] Setting up tunnel provider
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] subscribing to onDispose event
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Tunnel client is unconnected, fetching tunnel and connecting> object #0: {
+  "tunnelId": "giant-pond-xdz19gz",
+  "clusterId": "asse",
+  "domain": "app.github.dev",
+  "accessTokens": {
+    "connect": "eyJhbGciOiJFUzI1NiIsImtpZCI6IkI5Mjg5QzBFRDIyMUJENjhBNTA3MjA3MzY4MEI1MjFDRDVGRTEyQzIiLCJ0eXAiOiJKV1QifQ.eyJjbHVzdGVySWQiOiJhc3NlIiwidHVubmVsSWQiOiJnaWFudC1wb25kLXhkejE5Z3oiLCJzY3AiOiJjb25uZWN0IiwiZXhwIjoxNzIwNTg4NjEyLCJpc3MiOiJodHRwczovL3R1bm5lbHMuYXBpLnZpc3VhbHN0dWRpby5jb20vIiwibmJmIjoxNzIwNTAxMzEyfQ.xBTzsRdCNdcaWXR__4snnhUNhYFTwT5xt-QqzEkmtMMZdmk1luo2IapokIwyKY-MKkwZHa3JC2R2rHX8D7EQAQ",
+    "manage:ports": "eyJhbGciOiJFUzI1NiIsImtpZCI6IkI5Mjg5QzBFRDIyMUJENjhBNTA3MjA3MzY4MEI1MjFDRDVGRTEyQzIiLCJ0eXAiOiJKV1QifQ.eyJjbHVzdGVySWQiOiJhc3NlIiwidHVubmVsSWQiOiJnaWFudC1wb25kLXhkejE5Z3oiLCJzY3AiOiJtYW5hZ2U6cG9ydHMiLCJleHAiOjE3MjA1ODg2MTIsImlzcyI6Imh0dHBzOi8vdHVubmVscy5hcGkudmlzdWFsc3R1ZGlvLmNvbS8iLCJuYmYiOjE3MjA1MDEzMTJ9.sFuRI9ZqtZfe_81ScIZW6jUnbN2EdN6C_OElU_PeZIiVt-II15JX0gN79Oe7kQIUshFZDfTjwPcHOPJZscBqIQ"
+  }
+}
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 0: Connecting to client tunnel relay wss://asse-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/giant-pond-xdz19gz
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Sec-WebSocket-Protocol: tunnel-relay-client-v2-dev, tunnel-relay-client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Authorization: tunnel <tunnel=giant-pond-xdz19gz.asse, scopes=[connect], issuer=https://tunnels.api.visualstudio.com/, expiration=Wed Jul 10 2024 13:16:52 GMT+0800 (Philippine Standard Time)>
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Connected with subprotocol 'tunnel-relay-client'
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9114: SshClientSession connecting...
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #0 KeyExchangeInitMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9100: Local version: SSH-2.0-dev-tunnels-ssh_3.11.36, remote version: SSH-2.0-Microsoft.DevTunnels.Ssh_3.11
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #0 KeyExchangeInitMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: KeyExchange negotiation: Server (diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, ext-info-s) Client (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group14-sha256) => diffie-hellman-group14-sha256
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: PublicKey negotiation: Server (ecdsa-sha2-nistp384) Client (rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256) => ecdsa-sha2-nistp384
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: ClientEncryption negotiation: Server (aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-ctr
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: ServerEncryption negotiation: Server (aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-ctr
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: ClientHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: ServerHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: ClientCompression negotiation: Server (none) Client (none) => none
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9170: ServerCompression negotiation: Server (none) Client (none) => none
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #1 KeyExchangeDhInitMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #1 KeyExchangeDhReplyMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9112: Server public key verification succeeded.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #2 NewKeysMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #2 NewKeysMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #3 ExtensionInfoMessage (server-sig-algs=rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256; open-channel-request@microsoft.com; session-reconnect@microsoft.com)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9110: SshClientSession encrypted.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9111: SshClientSession Authenticating([ecdsa-sha2-nistp384])
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Verified host identity with public key AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBBw403lUzkBZVKpbSeDjOpy2Mxf+gepvOMNftKTVJv+cjysylw3CJa6Auqq8liNWdLD7hBI4D7zzxTiCTUlxOvM/dezDE5xRVBSSYxG8Ed6hY7L3ak/jX/Ad8QUGBpjRIA==
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9112: SshClientSession server authenticated.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #4 ServiceRequestMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #5 AuthenticationRequestMessage (Method: none, Username: tunnel)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #3 ExtensionInfoMessage (open-channel-request@microsoft.com; server-sig-algs=rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256; session-latency@microsoft.com; session-reconnect@microsoft.com)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #6 SessionRequestMessage (requestType=enable-session-reconnect@microsoft.com)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #4 SessionRequestMessage (requestType=enable-session-reconnect@microsoft.com)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #5 ServiceAcceptMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #6 AuthenticationSuccessMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9112: SshClientSession client authenticated.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Tunnel client connected, is reconnect: true
+[Client:extension:32df:resolver I] Initializing RPC client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Adding forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #7 SessionRequestMessage (requestType=tcpip-forward)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #7 PortForwardSuccessMessage (port=16634)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #8 SessionRequestMessage (requestType=tcpip-forward)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #8 PortForwardSuccessMessage (port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Not opening workspace tunnel for internal port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Added port: 16635
+[Client:extension:32df:resolver I] Initializing browser-based codespace host service client
+[Client:extension:32df:resolver I] Initializing browser-based VS Code server host service client
+[Client:extension:32df:resolver I] Initializing browser-based Jupyter server host service client
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fantastic-space-waffle-v76qxwprrwgc4gw"
+[EnvironmentPolling I] Finished polling fantastic-space-waffle-v76qxwprrwgc4gw: the predicate is true.
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace details
+[Client V] resume duration: 19275 ms
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace details
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] successfully started codespace
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] codespace started
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace details
+[Client:extension:32df:resolver:resolve:1:check-codespace-state I] vscode connection options: > object #0: {
+  "token": "<1149:<redacted>>",
+  "environmentId": "7b7348e7-6af3-4d12-b3e0-5df1e26002da",
+  "workspaceId": "63BBC90E3F4A1886A5E83581CBF27B8383AB",
+  "vsCodeCommit": "5437499feb04f7a586f677b155b039bc2b3669eb",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/"
+}
+[Client:extension:32df:resolver:resolve:1 I] Progress: Connecting to codespace...
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for StartRemoteServerAsync from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 111 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #9 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=1) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #9 ChannelOpenConfirmationMessage (recipientChannel=1)(senderChannel=0)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #1 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #12 ChannelCloseMessage (recipientChannel=1)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 1, RemoteId: 0) closed remotely. (S: 384, R: 241)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Client:extension:32df:resolver I] Executed start-remote-server using gRPC
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Adding forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider E] Failed to get tunnel port> object #0: Tunnel service error: Not Found code:ERR_BAD_REQUEST
+  at settle (/home/j/.vscode/extensions/node_modules/axios/dist/node/axios.cjs:1970:12)
+  at IncomingMessage.handleStreamEnd (/home/j/.vscode/extensions/node_modules/axios/dist/node/axios.cjs:3069:11)
+  at IncomingMessage.emit (node:events:526:35)
+  at endReadableNT (node:internal/streams/readable:1408:12)
+  at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'private', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #12 SessionRequestMessage (requestType=RefreshPorts)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #13 SessionRequestMessage (requestType=tcpip-forward)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #13 PortForwardSuccessMessage (port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #14 SessionRequestSuccessMessage
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Created port https/35131 with privacy 'private'
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Forwarding port 35131 locally
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] subscribing to onDispose event
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] V] subscribing to onDispose event
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] I] Starting local TCP server on port 35131 for remote port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] I] Attempting to listen to 127.0.0.1:35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] I] Listening on local port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] I] Server started on port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Using local port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Setting main connection reference for remote port 35131 to local port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] subscribing to onDispose event
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Reviving ports...
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Not opening workspace tunnel for internal port 16634
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Revived port: 16634
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Not opening workspace tunnel for internal port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Revived port: 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Not opening workspace tunnel for internal port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Revived port: 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] subscribing to onDispose event
+[Client:extension:32df:resolver:resolve:1 I] vscode server remote port: "35131", local port: "35131"}
+[Client V] connect duration: 23804 ms
+[Client:extension:32df:resolver:resolve:1 I] Progress: Done
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for EventStream from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 5 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver I] Subscribed to event stream
+[Client:extension:32df:resolver:resolve:1:background-tasks I] launching background configuration tasks
+[Client:extension:32df:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: addEnvironmentConfiguredEventCallback()
+[Client:extension:32df:resolver:resolve:1:background-tasks:post-attach-command-manager V] subscribing to onDispose event
+[Client:extension:32df:resolver:resolve:1:background-tasks I] no max idle timeout notice
+[Client:extension:32df:resolver:resolve:1:background-tasks V] checking correctness of the codespace session path> object #0: [
+  {
+    "uri": {
+      "$mid": 1,
+      "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938",
+      "path": "/workspaces/85962938",
+      "scheme": "vscode-remote",
+      "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+    },
+    "name": "<8:<redacted>>",
+    "index": 0
+  }
+]
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for IsRecoveryContainerAsync from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 5 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:resolve:1:background-tasks I] starting activity monitor, isRunningInWeb: "false"
+[Client:extension:32df:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] isRunningInWeb: false
+[Client:extension:32df:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] starting activity monitor
+[Client:extension:32df:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for NotifyCodespaceOfClientActivity from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 44 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for GetContainerPersistedFolderPath from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 5 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for GetContainerPersistedFolderPath from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 5 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for GetContainerPersistedFolderPath from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 5 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Received request for ConfigureEnvironmentAsync from client
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 16635 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/16635 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/16635 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending message of size 5 bytes to server
+[Client:extension:32df:resolver:codespaces-internal-transport V] Finished sending request to server
+[Client:extension:32df:resolver:resolve:1:background-tasks:openDefaultFiles I] Skipping openFiles because it's not the first activation
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 16635 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #14 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=2) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #15 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=3) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #16 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=4) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #17 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=5) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #18 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=6) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #19 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=7) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #20 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=8) (host=127.0.0.1 port=16635)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 35131 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/35131 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 35131 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #21 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=9) (host=127.0.0.1 port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #15 ChannelOpenConfirmationMessage (recipientChannel=2)(senderChannel=1)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #2 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #16 ChannelOpenConfirmationMessage (recipientChannel=3)(senderChannel=2)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #3 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #17 ChannelOpenConfirmationMessage (recipientChannel=4)(senderChannel=3)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #4 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #18 ChannelOpenConfirmationMessage (recipientChannel=5)(senderChannel=4)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #5 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #19 ChannelOpenConfirmationMessage (recipientChannel=6)(senderChannel=5)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #6 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #20 ChannelOpenConfirmationMessage (recipientChannel=7)(senderChannel=6)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #7 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #21 ChannelOpenConfirmationMessage (recipientChannel=8)(senderChannel=7)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #8 for 127.0.0.1:16635.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #22 ChannelOpenConfirmationMessage (recipientChannel=9)(senderChannel=8)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #9 for 127.0.0.1:35131.
+[Client:extension:32df:resolver I] Received event: Subscribed
+[Client:extension:32df:resolver I] Client 065ee46d-66e7-4459-bc27-1a1ebaeb053a subscribed to event stream
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #25 ChannelCloseMessage (recipientChannel=3)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 3, RemoteId: 2) closed remotely. (S: 272, R: 198)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Client:extension:32df:resolver:resolve:1:background-tasks I] Executed is-recovery-container using gRPC
+[Client:extension:32df:resolver:resolve:1:background-tasks V] not in recovery container
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #31 ChannelCloseMessage (recipientChannel=7)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 7, RemoteId: 6) closed remotely. (S: 279, R: 240)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[ResourceUsage I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[ResourceUsage V] shared folder path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage V] shared file path: "vscode-remote:///workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage I] Starting monitor
+[ResourceUsage I] Checking if the codespace connection exists
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #32 ChannelCloseMessage (recipientChannel=5)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 5, RemoteId: 4) closed remotely. (S: 279, R: 240)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Client:extension:32df:resolver:resolve:1:background-tasks I] Executed get-container-persisted-folder using gRPC
+[Client:extension:32df:resolver:resolve:1:background-tasks V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[Client:extension:32df:resolver:resolve:1:background-tasks V] shared folder path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:32df:resolver:resolve:1:background-tasks V] shared file path: "vscode-remote:///workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #33 ChannelCloseMessage (recipientChannel=6)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 6, RemoteId: 5) closed remotely. (S: 279, R: 240)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Performance I] Executed get-container-persisted-folder using gRPC
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 35131 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/35131 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 35131 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #38 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=10) (host=127.0.0.1 port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #34 ChannelCloseMessage (recipientChannel=4)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 4, RemoteId: 3) closed remotely. (S: 319, R: 200)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Client:extension:32df:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:32df:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #36 ChannelCloseMessage (recipientChannel=8)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshChannel(Type: forwarded-tcpip, Id: 8, RemoteId: 7) closed remotely. (S: 273, R: 198)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Client:extension:32df:resolver:resolve:1:background-tasks I] Executed configure-environment using gRPC
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #37 ChannelOpenConfirmationMessage (recipientChannel=10)(senderChannel=9)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #10 for 127.0.0.1:35131.
+[Performance I] Starting monitor
+[Performance I] Checking if the codespace connection exists
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #60 ChannelWindowAdjustMessage (recipientChannel=8) (bytesToAdd=525432)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #62 ChannelWindowAdjustMessage (recipientChannel=8) (bytesToAdd=529732)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #65 ChannelWindowAdjustMessage (recipientChannel=8) (bytesToAdd=524376)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 35131 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/35131 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 35131 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #73 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=11) (host=127.0.0.1 port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 35131 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/35131 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 35131 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #74 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=12) (host=127.0.0.1 port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 35131 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/35131 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 35131 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #75 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=13) (host=127.0.0.1 port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Getting stream from port 35131 with protocol https
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Creating or reusing https/35131 with privacy 'undefined', attempt 0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] https/35131 already exists with privacy 'private' so reusing the existing port
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Waiting for forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 0: Forwarded port 35131 is ready.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #76 PortForwardChannelOpenMessage(channelType=forwarded-tcpip, senderChannel=14) (host=127.0.0.1 port=35131)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #279 ChannelOpenConfirmationMessage (recipientChannel=11)(senderChannel=10)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #11 for 127.0.0.1:35131.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #280 ChannelOpenConfirmationMessage (recipientChannel=12)(senderChannel=11)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #12 for 127.0.0.1:35131.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #281 ChannelOpenConfirmationMessage (recipientChannel=13)(senderChannel=12)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #13 for 127.0.0.1:35131.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9102: Receiving #282 ChannelOpenConfirmationMessage (recipientChannel=14)(senderChannel=13)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9154: PortForwardingService opened forwarded-tcpip channel #14 for 127.0.0.1:35131.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #133 ChannelWindowAdjustMessage (recipientChannel=8) (bytesToAdd=528055)
+[Client:extension:32df:resolver V] disposing reason: 'vscode disposed the resolver', disposing 2 objects
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] disposing reason: 'vscode disposed the resolver $1', disposing 10 objects
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] disposing reason: 'n/a', disposing 0 objects
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:delayed-disposable V] Disposing reason:undefined
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] V] disposing reason: 'tunnelProvider disposed', disposing 9 objects
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:delayed-disposable V] Disposing reason:tunnelProvider disposed $0
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131]:delayed-disposable V] Disposing reason:tunnelProvider disposed $1
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] I] Stopping local TCP server on port 35131 (6 connections)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Stopping forwarded port 16635
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Stopped forwarding port 16635
+[Client:extension:32df:resolver I] Dev Tunnels connection is disposed, disposing of RPC client
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client
+[Client:extension:32df:resolver:codespaces-internal-transport E] Request canceled by client
+[Client:extension:32df:resolver:resolve:1:background-tasks:post-attach-command-manager V] disposing reason: 'vscode disposed the resolver $1 $2', disposing 1 objects
+[Client:extension:32df:resolver:resolve:1:background-tasks:post-attach-command-manager:delayed-disposable V] Disposing reason:undefined
+[Client:extension:32df:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] disposing reason: 'disposed with connection', disposing 23 objects
+[ResourceUsage I] Connection disposed, stopping monitor
+[ResourceUsage I] Stopping polling
+[Performance I] Connection disposed, stopping monitor
+[Performance I] Stopping polling
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:delayed-disposable V] Disposing reason:undefined
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:delayed-disposable V] Disposing reason:undefined
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider:local-port-forwarder[35131] V] Stopped local server
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Stopping forwarded port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Stopping local port forwarder for port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Stopped local port forwarder for port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Stopped forwarding port 35131
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Stopping forwarded port 16634
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Stopped forwarding port 16634
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] Tunnel client disconnected, recreating and reconnecting: undefined
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider I] Not connecting tunnel client because the provider is disposed
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9113: SshClientSession Close(byApplication, "")
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #141 ChannelCloseMessage (recipientChannel=8)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9113: SshClientSession disposed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient info 9123: SshClientSession closed.
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #142 DisconnectMessage (byApplication: )
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #143 ChannelCloseMessage (recipientChannel=9)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #144 ChannelCloseMessage (recipientChannel=10)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #145 ChannelCloseMessage (recipientChannel=11)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #146 ChannelCloseMessage (recipientChannel=12)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #147 ChannelCloseMessage (recipientChannel=13)
+[Client:extension:32df:resolver:port-forwarder:tunnel-provider V] tunnelClient verbose 9101: Sending #148 ChannelCloseMessage (recipientChannel=1)
+[Client:extension:32df:resolver:codespaces-internal-transport V] Sending end event to client

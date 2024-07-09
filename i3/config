@@ -80,21 +80,24 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+q kill
 
 # lock screen
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec --no-startup-id i3lock
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindsym $mod+d exec "rofi -modi drun,run -show drun"
+bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+
+# Wallpaper Script
+bindsym $mod+shift+w exec --no-startup-id $HOME/.config/scripts/wallpaper.sh
 
 # change focus
 bindsym $mod+h focus Left
@@ -144,9 +147,9 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # Autorotate for Tablet Mode
-bindsym $super+r exec ~/Programming/bin/autorotate invert
+bindsym $super+r exec --no-startup-id ~/Programming/bin/autorotate invert
 
-bindsym $super+shift+r exec ~/Programming/bin/autorotate landscape
+bindsym $super+shift+r exec --no-startup-id ~/Programming/bin/autorotate landscape
 
 # Flameshot for screenshots
 exec --no-startup-id flameshot
@@ -157,6 +160,21 @@ for_window [class="Conky"] floating enable
 for_window [class="Conky"] sticky enable
 
 bindsym $mod+Ctrl+a exec --no-startup-id conky
+
+# Apps opened on startup + workspaces
+
+exec --no-startup-id obsidian
+exec --no-startup-id firefox
+
+assign [class="obsidian"] 2
+assign [class="firefox"] 1
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -198,19 +216,6 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-# Apps opened on startup + workspaces
-exec obsidian
-exec firefox
-
-assign [class="obsidian"] 2
-assign [class="firefox"] 1
-
-# reload the configuration file
-bindsym $mod+Shift+c reload
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
