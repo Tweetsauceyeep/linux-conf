@@ -1,3 +1,9 @@
+audacious/
+betterlockscreen/
+calibre/
+Code/
+tiling-assistant/
+spotify/
 gnome-session/
 goa-1.0/
 gtk-3.0/
@@ -11,4 +17,13 @@ user-dirs.locale
 pulse/
 GNOME-xdg-terminals.list
 gnome-initial-setup-done
+ubuntu-xdg-terminals.list
+user-dirs.dirs
+user-dirs.locale
+vlc/
+mimeapps.list
 evolution/
+kitty/
+QtProject.conf
+.gitignore
+tmux/plugins/

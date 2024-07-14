@@ -34,14 +34,15 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-#audio
+# Audio
 exec --no-startup-id pulseaudio
 
-#picom - for transparency
-exec --no-startup-id picom
+# Picom - for transparency
+#exec --no-startup-id picom &
+exec --no-startup-id picom --animations -b &
 
 #wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/The_Artist\'s_Garden_at_Eragny.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/Monochrome/*mono-mountain.jpg
 #exec --no-startup-id feh --bg-scale ~/Pictures/koifish.jpg
 #gaps
 #gaps inner 20
@@ -60,7 +61,13 @@ mode "$mode_gaps" {
 
 #Window BOrder
 default_border pixel 4
-
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ebdbb2
+#client.focused          #4c7899 #285577 #ffffff #2e9ef4   #689d6a
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 # Use brightnessctl to adjust brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
@@ -98,6 +105,13 @@ bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun"
 
 # Wallpaper Script
 bindsym $mod+shift+w exec --no-startup-id $HOME/.config/scripts/wallpaper.sh
+
+# Open Apps
+bindsym $super+shift+o exec --no-startup-id obsidian
+bindsym $super+shift+f exec --no-startup-id firefox
+bindsym $super+shift+s exec --no-startup-id spotify
+bindsym $super+shift+b exec --no-startup-id blueman-manager
+bindsym $super+shift+v exec --no-startup-id pavucontrol
 
 # change focus
 bindsym $mod+h focus Left
@@ -162,11 +176,8 @@ for_window [class="Conky"] sticky enable
 bindsym $mod+Ctrl+a exec --no-startup-id conky
 
 # Apps opened on startup + workspaces
-
-exec --no-startup-id obsidian
+#exec --no-startup-id obsidian
 exec --no-startup-id firefox
-
-assign [class="obsidian"] 2
 assign [class="firefox"] 1
 
 # reload the configuration file
