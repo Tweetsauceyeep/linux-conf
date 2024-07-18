@@ -47,8 +47,8 @@ exec --no-startup-id feh --bg-scale ~/Pictures/Monochrome/*mono-mountain.jpg
 #gaps
 #gaps inner 20
 #gaps outer 10
-gaps inner 10
-gaps outer 5
+gaps inner 20
+gaps outer 10
 
 set $mode_gaps Toggle gaps: (1) on (2) off
 bindsym $mod+g mode "$mode_gaps"
@@ -60,7 +60,7 @@ mode "$mode_gaps" {
 }
 
 #Window BOrder
-default_border pixel 4
+default_border pixel 5
 # class                 border  backgr. text    indicator child_border
 client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ebdbb2
 #client.focused          #4c7899 #285577 #ffffff #2e9ef4   #689d6a
@@ -95,10 +95,12 @@ bindsym $mod+q kill
 # lock screen
 bindsym $mod+shift+x exec --no-startup-id i3lock
 
+
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun"
+#bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun"
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-3/launcher.sh
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -109,9 +111,35 @@ bindsym $mod+shift+w exec --no-startup-id $HOME/.config/scripts/wallpaper.sh
 # Open Apps
 bindsym $super+shift+o exec --no-startup-id obsidian
 bindsym $super+shift+f exec --no-startup-id firefox
-bindsym $super+shift+s exec --no-startup-id spotify
 bindsym $super+shift+b exec --no-startup-id blueman-manager
 bindsym $super+shift+v exec --no-startup-id pavucontrol
+bindsym $mod+shift+n exec --no-startup-id alacritty --class popup_notes -e ~/.config/scripts/notekami.sh
+# for top scratchpad notes
+for_window [instance="^popup_notes"] floating enable, border none, resize set 1920 600, move absolute position 0 0, mark popup_term, sticky enable
+# for centered notes
+#for_window [instance="^popup_notes"] floating enable, resize set 800 600, move center, mark popup_term, sticky enable
+
+# Scratchpad
+#bindsym $mod+Tab     [instance="^dropdown$"]        scratchpad show
+##for_window [instance="^dropdown$"] \
+#    floating enable, border none,\
+#    resize set 100 ppt 50 ppt, \
+#    move position 0 24, \
+#    move scratchpad
+#exec --no-startup-id alacritty --class dropdown -e tmux
+
+# run terminal with custom app_id, smaller font, and lighter opacity
+exec alacritty --class popup_term \
+    --option colors.primary.background=#101010 \
+    --option window.opacity=0.8 \
+    --option font.size=9.5 \
+    -e tmux 
+
+# resize/move it to the top ~20% of the screen and put it on scratchpad
+for_window [instance="^popup_term"] floating enable, border none, resize set 1920 600, move absolute position 0 0, mark popup_term, move scratchpad, sticky enable
+# bring it up with $mod+v
+bindsym $mod+Tab [instance="^popup_term$"] scratchpad show
+
 
 # change focus
 bindsym $mod+h focus Left
@@ -161,9 +189,8 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # Autorotate for Tablet Mode
-bindsym $super+r exec --no-startup-id ~/Programming/bin/autorotate invert
-
-bindsym $super+shift+r exec --no-startup-id ~/Programming/bin/autorotate landscape
+#bindsym $super+r exec --no-startup-id ~/Programming/bin/autorotate invert
+#bindsym $super+shift+r exec --no-startup-id ~/Programming/bin/autorotate landscape
 
 # Flameshot for screenshots
 exec --no-startup-id flameshot
@@ -186,6 +213,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# Rofi Script to restart Computer
+bindsym $super+Shift+r exec $HOME/.config/scripts/prompt.sh "Test" "sudo reboot"
 
 # focus the child container
 #bindsym $mod+d focus child

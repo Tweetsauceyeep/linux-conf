@@ -1,3 +1,6 @@
+[font.normal]
+family = "DejaVuSansM Nerd Font Mono"
+
 [colors.primary]
 background = "#101010"
 foreground = "#afafaf"

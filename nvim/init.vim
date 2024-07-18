@@ -4,7 +4,7 @@ set nowrap
 set mouse=v
 set incsearch
 set tabstop=2
-set softtabstop=2
+set softtabstop=3
 set expandtab
 set shiftwidth=2
 set number relativenumber
