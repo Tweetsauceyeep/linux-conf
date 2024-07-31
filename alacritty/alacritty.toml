@@ -1,5 +1,6 @@
 [font.normal]
 family = "DejaVuSansM Nerd Font Mono"
+style = "bold"
 
 [colors.primary]
 background = "#101010"
@@ -28,7 +29,7 @@ white = "#ebdbb2"
 
 [window]
 decorations = "buttonless"
-opacity = 0.8
+opacity = 0.7
 
 [window.class]
 general = "Alacritty"

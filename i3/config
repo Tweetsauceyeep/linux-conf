@@ -29,7 +29,8 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy 
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -93,7 +94,7 @@ bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+q kill
 
 # lock screen
-bindsym $mod+shift+x exec --no-startup-id i3lock
+bindsym $mod+shift+x exec --no-startup-id i3lock-fancy
 
 
 # start dmenu (a program launcher)
@@ -133,7 +134,7 @@ exec alacritty --class popup_term \
     --option colors.primary.background=#101010 \
     --option window.opacity=0.8 \
     --option font.size=9.5 \
-    -e tmux 
+    -e tmux
 
 # resize/move it to the top ~20% of the screen and put it on scratchpad
 for_window [instance="^popup_term"] floating enable, border none, resize set 1920 600, move absolute position 0 0, mark popup_term, move scratchpad, sticky enable
