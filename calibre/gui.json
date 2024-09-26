@@ -42,6 +42,22 @@
       [
         "timestamp",
         false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
       ]
     ]
   },
@@ -73,6 +89,22 @@
     "last_modified_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false
@@ -192,28 +224,28 @@
   "do_not_show_device_open_popup_message_KINDLE2": true,
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1098,
+      "height": 1108,
       "width": 1860,
       "x": 30,
       "y": 30
     },
     "full_screened": false,
     "geometry": {
-      "height": 1092,
-      "width": 1854,
-      "x": 33,
-      "y": 33
+      "height": 1098,
+      "width": 1850,
+      "x": 35,
+      "y": 35
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1092,
-      "width": 1854,
-      "x": 33,
-      "y": 33
+      "height": 1098,
+      "width": 1850,
+      "x": 35,
+      "y": 35
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAeAAAAHgAAB2EAAARnAAAAIQAAACEAAAdeAAAEZAAAAAAAAAAAB4AAAAAhAAAAIQAAB14AAARk"
+      "__value__": "AdnQywADAAAAAAAeAAAAHgAAB2EAAARxAAAAIwAAACMAAAdcAAAEbAAAAAAAAAAAB4AAAAAjAAAAIwAAB1wAAARs"
     },
     "screen": {
       "depth": 24,
@@ -294,7 +326,7 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/j/Calibre Library": 4
+    "/home/j/Calibre Library": 6
   },
   "main_window_central_widget_state": {
     "layout": "wide",
@@ -353,6 +385,22 @@
     "last_modified_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false

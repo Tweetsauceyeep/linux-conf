@@ -9,6 +9,9 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# enables fibonacci splits
+#for_window [class=".*"] split toggle 
+
 set $mod Mod1
 set $super Mod4
 
@@ -43,7 +46,8 @@ exec --no-startup-id pulseaudio
 exec --no-startup-id picom --animations -b &
 
 #wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/Monochrome/*mono-mountain.jpg
+#exec --no-startup-id feh --bg-scale /home/j/Pictures/exorcist365_wallpapers_tree_master_gruvbox/gruvbox/*bridge.jpg
+exec --no-startup-id feh --bg-scale /home/j/Pictures/wal2gb/*foggypier.jpg
 #exec --no-startup-id feh --bg-scale ~/Pictures/koifish.jpg
 #gaps
 #gaps inner 20
@@ -63,7 +67,11 @@ mode "$mode_gaps" {
 #Window BOrder
 default_border pixel 5
 # class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ebdbb2
+# Gruv Blue
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #83a598
+# Gruv White v
+#client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ebdbb2
+#Gruv Green v
 #client.focused          #4c7899 #285577 #ffffff #2e9ef4   #689d6a
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
@@ -79,6 +87,11 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && ~/Programming/scripts/volume-notify.sh && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && ~/Programming/scripts/volume-notify.sh && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && ~/Programming/scripts/volume-notify.sh && $refresh_i3status
+
+# spotify controls
+bindsym XF86AudioPlay exec playerctl --player spotify play-pause
+bindsym XF86AudioNext exec playerctl --player spotify next
+bindsym XF86AudioPrev exec playerctl --player spotify previous
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -206,7 +219,7 @@ bindsym $mod+Ctrl+a exec --no-startup-id conky
 # Apps opened on startup + workspaces
 #exec --no-startup-id obsidian
 exec --no-startup-id firefox
-assign [class="firefox"] 1
+assign [class="firefox"] 2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -232,6 +245,11 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
+# switch to next and previous workspace
+bindsym $super+Tab workspace next
+bindsym $super+shift+Tab workspace prev
+
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1

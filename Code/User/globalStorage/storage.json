@@ -2,9 +2,12 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938": "__default__profile__"
+            "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938": "__default__profile__",
+            "file:///home/j/Programming/ccprog1": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1724305369206": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -14,50 +17,52 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938",
-                "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                "folderUri": "file:///home/j/Programming/ccprog1"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1724305369206"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938",
-            "backupPath": "/home/j/.config/Code/Backups/9daeb32221f3e6ad6df40f426dd97642",
-            "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+            "folder": "file:///home/j/Programming/ccprog1",
+            "backupPath": "/home/j/.config/Code/Backups/7f7d7a645907c3d624b360ce0b064006",
             "uiState": {
                 "mode": 1,
-                "x": 1160,
-                "y": 19,
-                "width": 741,
-                "height": 1130,
+                "x": 35,
+                "y": 67,
+                "width": 1850,
+                "height": 1098,
                 "zoomLevel": 2
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#1d2021",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#ebdbb2",
+            "background": "#1d2021",
+            "editorBackground": "#1d2021",
+            "titleBarBackground": "#1d2021",
+            "activityBarBackground": "#1d2021",
+            "sideBarBackground": "#1d2021",
+            "statusBarBackground": "#1d2021",
+            "statusBarNoFolderBackground": "#1d2021"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "statusBarHeight": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
             "windowBorder": false
         }
     },
@@ -109,6 +114,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/j/Programming/ccprog1",
+                                        "path": "/home/j/Programming/ccprog1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Programming/ccprog1"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938",
                                         "path": "/workspaces/85962938",
                                         "scheme": "vscode-remote",
@@ -125,6 +141,123 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/caesar/caesar.c",
+                                        "path": "/workspaces/85962938/cs50/problems/2024/x/caesar/caesar.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/cs50/problems/2024/x/caesar/caesar.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/argv.c",
+                                        "path": "/workspaces/85962938/practice/week2/argv.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/practice/week2/argv.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/scrabble/scrabble.c",
+                                        "path": "/workspaces/85962938/cs50/problems/2024/x/scrabble/scrabble.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/cs50/problems/2024/x/scrabble/scrabble.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/scrabble/scrabble",
+                                        "path": "/workspaces/85962938/cs50/problems/2024/x/scrabble/scrabble",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/cs50/problems/2024/x/scrabble/scrabble"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/alphabetical.c",
+                                        "path": "/workspaces/85962938/practice/week2/alphabetical.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/practice/week2/alphabetical.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/double.c",
+                                        "path": "/workspaces/85962938/practice/week2/double.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/practice/week2/double.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/readability/readability.c",
+                                        "path": "/workspaces/85962938/cs50/problems/2024/x/readability/readability.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/cs50/problems/2024/x/readability/readability.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/scrabble/hello.c",
+                                        "path": "/workspaces/85962938/cs50/problems/2024/x/scrabble/hello.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/cs50/problems/2024/x/scrabble/hello.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/status.c",
+                                        "path": "/workspaces/85962938/practice/week2/status.c",
+                                        "scheme": "vscode-remote",
+                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
+                                    },
+                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
+                                    "enabled": true,
+                                    "label": "/workspaces/85962938/practice/week2/status.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/greet.c",
                                         "path": "/workspaces/85962938/practice/week2/greet.c",
                                         "scheme": "vscode-remote",
@@ -133,123 +266,6 @@
                                     "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
                                     "enabled": true,
                                     "label": "/workspaces/85962938/practice/week2/greet.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/uppercase.c",
-                                        "path": "/workspaces/85962938/practice/week2/uppercase.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/uppercase.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/string.c",
-                                        "path": "/workspaces/85962938/practice/week2/string.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/string.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/length.c",
-                                        "path": "/workspaces/85962938/practice/week2/length.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/length.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/pre-madescores.c",
-                                        "path": "/workspaces/85962938/practice/week2/pre-madescores.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/pre-madescores.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/scores.c",
-                                        "path": "/workspaces/85962938/practice/week2/scores.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/scores.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/buggy2.c",
-                                        "path": "/workspaces/85962938/practice/week2/buggy2.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/buggy2.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/practice/week2/buggy.c",
-                                        "path": "/workspaces/85962938/practice/week2/buggy.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/practice/week2/buggy.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/cash/cash.c",
-                                        "path": "/workspaces/85962938/cs50/problems/2024/x/cash/cash.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/cs50/problems/2024/x/cash/cash.c"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "vscode-remote://codespaces%2Bfantastic-space-waffle-v76qxwprrwgc4gw/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c",
-                                        "path": "/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c",
-                                        "scheme": "vscode-remote",
-                                        "authority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw"
-                                    },
-                                    "remoteAuthority": "codespaces+fantastic-space-waffle-v76qxwprrwgc4gw",
-                                    "enabled": true,
-                                    "label": "/workspaces/85962938/cs50/problems/2024/x/mario-less/mario.c"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -308,21 +324,6 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "issue.copyGithubPermalink",
-                                    "label": "Copy GitHub Permalink"
-                                },
-                                {
-                                    "id": "issue.copyMarkdownGithubPermalink",
-                                    "label": "Copy GitHub Permalink as Markdown"
-                                },
-                                {
-                                    "id": "issue.copyGithubHeadLink",
-                                    "label": "Copy GitHub Head Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -338,8 +339,7 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save",
-                        "checked": true
+                        "label": "A&&uto Save"
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -462,10 +462,6 @@
                         "label": "Close &&Folder"
                     },
                     {
-                        "id": "workbench.action.remote.close",
-                        "label": "Close Re&&mote Connection"
-                    },
-                    {
                         "id": "workbench.action.closeWindow",
                         "label": "Clos&&e Window"
                     },
@@ -498,22 +494,6 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copy"
-                    },
-                    {
-                        "id": "submenuitem.MenubarCopy",
-                        "label": "Copy As",
-                        "submenu": {
-                            "items": [
-                                {
-                                    "id": "issue.copyGithubPermalink",
-                                    "label": "Copy GitHub Permalink"
-                                },
-                                {
-                                    "id": "issue.copyMarkdownGithubPermalink",
-                                    "label": "Copy GitHub Permalink as Markdown"
-                                }
-                            ]
-                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -675,7 +655,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -683,7 +664,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
-                                    "label": "S&&tatus Bar"
+                                    "label": "S&&tatus Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -819,11 +801,13 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap"
+                                    "label": "&&Minimap",
+                                    "checked": true
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "Toggle &&Breadcrumbs"
+                                    "label": "Toggle &&Breadcrumbs",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
@@ -997,8 +981,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",

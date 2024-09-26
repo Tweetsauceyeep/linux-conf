@@ -113,26 +113,26 @@
     "frame_geometry": {
       "height": 216,
       "width": 537,
-      "x": 684,
-      "y": 465
+      "x": 686,
+      "y": 489
     },
     "full_screened": false,
     "geometry": {
       "height": 190,
       "width": 533,
-      "x": 686,
-      "y": 489
+      "x": 688,
+      "y": 513
     },
     "maximized": false,
     "normal_geometry": {
       "height": 190,
       "width": 533,
-      "x": 686,
-      "y": 489
+      "x": 688,
+      "y": 513
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAKsAAAB0QAABMQAAAKoAAACrgAAAekAAATCAAACpgAAAAAAAAAAB4AAAAKuAAAB6QAABMIAAAKm"
+      "__value__": "AdnQywADAAAAAAKuAAAB6QAABMYAAALAAAACsAAAAgEAAATEAAACvgAAAAAAAAAAB4AAAAKwAAACAQAABMQAAAK+"
     },
     "screen": {
       "depth": 24,
@@ -144,7 +144,7 @@
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "",
+      "manufacturer": "BOE",
       "model": "",
       "name": "eDP",
       "serial": "",
@@ -162,28 +162,28 @@
   },
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 1108,
-      "width": 920,
-      "x": 970,
-      "y": 30
+      "height": 1200,
+      "width": 1920,
+      "x": 0,
+      "y": 0
     },
-    "full_screened": false,
+    "full_screened": true,
     "geometry": {
-      "height": 1098,
-      "width": 910,
-      "x": 975,
-      "y": 35
+      "height": 1200,
+      "width": 1920,
+      "x": 0,
+      "y": 0
     },
     "maximized": false,
     "normal_geometry": {
       "height": 1098,
       "width": 910,
       "x": 975,
-      "y": 35
+      "y": 67
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPKAAAAHgAAB2EAAARxAAADzwAAACMAAAdcAAAEbAAAAAAAAAAAB4AAAAPPAAAAIwAAB1wAAARs"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAASvAAADzwAAAEMAAAdcAAAEjAAAAAAABAAAB4AAAAAAAAAAAAAAB38AAASv"
     },
     "screen": {
       "depth": 24,
@@ -195,7 +195,7 @@
         "y": 0
       },
       "index_in_screens_list": 0,
-      "manufacturer": "",
+      "manufacturer": "BOE",
       "model": "",
       "name": "eDP",
       "serial": "",
@@ -213,13 +213,14 @@
   },
   "html-editor-state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAD9AAAAAAAAAL4AAAOsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGEAYwB0AGkAbwBuAF8AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAF8AYgBhAHIBAAAAQv////8AAAAAAAAAAAAAAB4AaAB0AG0AbABfAGYAbwByAG0AYQB0AF8AYgBhAHIBAAAAgP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAD9AAAAAAAAAL4AAAQYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGEAYwB0AGkAbwBuAF8AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAF8AYgBhAHIBAAAAQv////8AAAAAAAAAAAAAAB4AaAB0AG0AbABfAGYAbwByAG0AYQB0AF8AYgBhAHIBAAAAgP////8AAAAAAAAAAA=="
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAACjAAAD9fwCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAD4AAAP1AAAAWgD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAFoA////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAIAA////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAIwA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAhUA////AAAAAQAAAiUAAAP1/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAPgAAA/UAAABTAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABaAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA7AP///wAAALoAAAP1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
+    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAABGAAAEW/wCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAD4AAARbAAAAWgD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAFoA////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAIAA////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAIwA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAhUA////AAAAAQAABnAAAARb/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAPgAABFsAAABTAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABaAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA7AP///wAAAL4AAARbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
   },
   "recent-books": [
+    "/home/j/Downloads/MTH101A-math-majors.epub",
     "/home/j/Downloads/Torrents/86--EIGHTY-SIX [Yen Press] [LuCaZ]/86--EIGHTY-SIX v01 [Yen Press] [LuCaZ].epub"
   ],
   "reports-ui-state": {},

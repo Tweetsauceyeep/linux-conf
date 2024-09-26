@@ -1,6 +1,0 @@
-2024-06-30 19:42:28.685 [info] update#setState idle
-2024-06-30 19:42:58.663 [info] update#setState checking for updates
-2024-06-30 19:42:58.736 [info] update#setState idle
-2024-06-30 19:43:05.947 [warning] [perf] profiling STARTED 731e508f-d76f-4c72-9630-eb67ca056314
-2024-06-30 19:43:10.971 [warning] [perf] profiling DONE 731e508f-d76f-4c72-9630-eb67ca056314
-2024-06-30 19:52:54.618 [info] Extension host with pid 11045 exited with code: 0, signal: unknown.

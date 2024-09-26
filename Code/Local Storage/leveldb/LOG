@@ -1,3 +1,3 @@
-2024/07/14-11:55:42.002 2892df Reusing MANIFEST /home/j/.config/Code/Local Storage/leveldb/MANIFEST-000001
-2024/07/14-11:55:42.013 2892df Recovering log #3
-2024/07/14-11:55:42.014 2892df Reusing old log /home/j/.config/Code/Local Storage/leveldb/000003.log 
+2024/09/24-10:04:44.502 643b7 Reusing MANIFEST /home/j/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2024/09/24-10:04:44.510 643b7 Recovering log #3
+2024/09/24-10:04:44.511 643b7 Reusing old log /home/j/.config/Code/Local Storage/leveldb/000003.log 

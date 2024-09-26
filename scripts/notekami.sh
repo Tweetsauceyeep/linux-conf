@@ -94,7 +94,7 @@ EOF
 
 export FZF_DEFAULT_OPTS="-e -i --info=hidden --layout=reverse --scroll-off=5 --tiebreak=index --bind 'home:first,end:last,ctrl-k:preview-page-up,ctrl-j:preview-page-down,ctrl-y:preview-up,ctrl-e:preview-down,ctrl-/:change-preview-window(hidden|)'"
 
-mydir="$HOME/Documents/Laptop-Notes/00-inbox/Notekami-inbox"
+mydir="$HOME/Documents/Laptop-Notes/00-inbox/Phone-notes/Notekami"
 mycheatdir="$mydir/cheatsheet"
 myfile="$mydir/scratchpaper/$(date +%Y-%m).md"
 timestamp="$(date +%Y-%m-%d\ %r)"
